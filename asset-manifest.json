@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Jewelry/static/css/main.0be3a4c2.chunk.css",
-    "main.js": "/Jewelry/static/js/main.5d7edd4d.chunk.js",
-    "main.js.map": "/Jewelry/static/js/main.5d7edd4d.chunk.js.map",
+    "main.css": "/Jewelry/static/css/main.b7c00c93.chunk.css",
+    "main.js": "/Jewelry/static/js/main.c5abc6bf.chunk.js",
+    "main.js.map": "/Jewelry/static/js/main.c5abc6bf.chunk.js.map",
     "runtime-main.js": "/Jewelry/static/js/runtime-main.e3672ae8.js",
     "runtime-main.js.map": "/Jewelry/static/js/runtime-main.e3672ae8.js.map",
     "static/css/2.7f5e552d.chunk.css": "/Jewelry/static/css/2.7f5e552d.chunk.css",
     "static/js/2.2a9e1adc.chunk.js": "/Jewelry/static/js/2.2a9e1adc.chunk.js",
     "static/js/2.2a9e1adc.chunk.js.map": "/Jewelry/static/js/2.2a9e1adc.chunk.js.map",
     "index.html": "/Jewelry/index.html",
-    "precache-manifest.0b20290831ebdcc44e1edec68986a398.js": "/Jewelry/precache-manifest.0b20290831ebdcc44e1edec68986a398.js",
+    "precache-manifest.92bd906b3d5a041fe92145718c256593.js": "/Jewelry/precache-manifest.92bd906b3d5a041fe92145718c256593.js",
     "service-worker.js": "/Jewelry/service-worker.js",
     "static/css/2.7f5e552d.chunk.css.map": "/Jewelry/static/css/2.7f5e552d.chunk.css.map",
-    "static/css/main.0be3a4c2.chunk.css.map": "/Jewelry/static/css/main.0be3a4c2.chunk.css.map",
+    "static/css/main.b7c00c93.chunk.css.map": "/Jewelry/static/css/main.b7c00c93.chunk.css.map",
     "static/js/2.2a9e1adc.chunk.js.LICENSE.txt": "/Jewelry/static/js/2.2a9e1adc.chunk.js.LICENSE.txt",
     "static/media/mdb.css": "/Jewelry/static/media/default-skin.b257fa9c.svg",
     "static/media/all.min.css": "/Jewelry/static/media/fa-solid-900.ee09ad75.woff"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.e3672ae8.js",
     "static/css/2.7f5e552d.chunk.css",
     "static/js/2.2a9e1adc.chunk.js",
-    "static/css/main.0be3a4c2.chunk.css",
-    "static/js/main.5d7edd4d.chunk.js"
+    "static/css/main.b7c00c93.chunk.css",
+    "static/js/main.c5abc6bf.chunk.js"
   ]
 }
