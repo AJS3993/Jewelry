@@ -11,11 +11,11 @@ class Home extends React.Component {
 
   render() {
     return (
-      <div className='rgba-yellow-slight'>
+      <div>
         
       
   
-      <MDBNavbar expand='md' className='p-0 rgba-red-strong'>
+      <MDBNavbar expand='md' className='p-0 rgba-red-strong mt-n2 z-depth-2 tnav'>
       <MDBNavbarBrand>
       <MDBBtn size="sm" tag="a" floating social="fb" className='ml-3 soLink'>
         <MDBIcon fab icon="facebook-f" />
@@ -39,59 +39,85 @@ class Home extends React.Component {
       </MDBNavbarNav>
      
       </MDBNavbar>
+
+      <MDBRow>
+
+
    
           
-      <MDBRow className='rgba-yellow-slight titleBanner'>
-      <MDBCol md="3">
-      
+        <MDBCol md="12">
+        
+
+      <MDBRow className='titleBanner z-depth-3'>
+
+      <MDBCol md="1" className='ll'>
+        
+        </MDBCol>
+      <MDBCol md="1" className='ll mb-5'>
+   
           </MDBCol>
-      <MDBCol md="2">
+         
+      <MDBCol md="3" className='pt-2 mt-1 text-right'>
+      <span className='td'>꧁ &nbsp;</span>
             <span className='tm1'>Accesorios</span>
           </MDBCol>
           <MDBCol md="2">
             <img src="https://i.imgur.com/DwFMuSm.png" className="img-fluid mt-n5 mb-n3" alt="" />
           </MDBCol>
-          <MDBCol md="4" className='mx-n3'>
-            <span className='tm2'>La Mexicana</span>
+          <MDBCol md="3" className='pt-3'>
+            <span className='tm2'>La Mexicana </span>
+            <span className='td'> ꧂</span>
           </MDBCol>
-          <MDBCol md="1">
-      
+          <MDBCol md="1" className=''>
+        
           </MDBCol>
+          <MDBCol md="1" className=''>
+        
+        </MDBCol>
         </MDBRow>
+        </MDBCol>
+       
+        </MDBRow>
+        
+
+        <div>
   
-        <MDBNavbar expand='md' className='mx-5 rounded rgba-red-strong z-depth-1'>
+        <MDBNavbar expand='md' className='mx-5 rounded rgba-red-strong z-depth-1 nav2 py-4'>
       
         <MDBNavbarNav>
       <MDBNavItem>
-        <MDBNavLink className='white-text navLink' to="/">Bracelets</MDBNavLink>
+        <MDBNavLink className='navLink px-4 m-0 titleBanner2 rounded' to="/">Bracelets</MDBNavLink>
       </MDBNavItem>
       
       <MDBNavItem>
-        <MDBNavLink className='white-text navLink' to="/fav">Rings</MDBNavLink>
+        <MDBNavLink className='navLink px-4 m-0 titleBanner2 rounded' to="/fav">Rings</MDBNavLink>
       </MDBNavItem>
       <MDBNavItem>
-        <MDBNavLink className='white-text navLink' to="/add">Necklaces</MDBNavLink>
-      </MDBNavItem>
-
-      <MDBNavItem>
-        <MDBNavLink className='white-text navLink' to="/add">Earings</MDBNavLink>
+        <MDBNavLink className='px-5 m-0 titleBanner2 rounded navLink' to="/add">Necklaces</MDBNavLink>
       </MDBNavItem>
 
       <MDBNavItem>
-        <MDBNavLink className='white-text navLink' to="/add">More</MDBNavLink>
+        <MDBNavLink className='px-5 m-0 titleBanner2 rounded navLink' to="/add">Earings</MDBNavLink>
+      </MDBNavItem>
+
+      <MDBNavItem>
+        <MDBNavLink className='px-5 m-0 titleBanner2 rounded navLink' to="/add">More</MDBNavLink>
       </MDBNavItem>
       </MDBNavbarNav>
      
       </MDBNavbar>
-    
+
+      </div>
+
+    <div className='titleBanner3 mx-5 mt-n3 pt-3 rounded'>
           
       <CarouselPage/>
 
       <br/>  
+      </div>
 
- 
 
-      <div className='py-5 w-100 rgba-red-slight'>
+      <div className='py-5 w-100 rgba-red-light'>
 
       <MDBRow className='mx-5'>
         <MDBCol lg='4' md='12' className='mb-lg-0 mb-4'>
@@ -104,17 +130,17 @@ class Home extends React.Component {
             />
             <MDBCardBody cascade className='text-center'>
               <a href='#!' className='text-muted'>
-                <h5>Camera</h5>
+                <h5>Bracelets</h5>
               </a>
               <MDBCardTitle>
                 <strong>
-                  <a href='#!'>GoPro</a>
+                  <a href='#!'>Hand Made</a>
                 </strong>
               </MDBCardTitle>
               <MDBCardText>Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</MDBCardText>
-              <MDBCardFooter className='px-1'>
+              <MDBCardFooter className='px-3'>
                 <span className='float-left font-weight-bold'>
-                  <strong>1439$</strong>
+                  <strong>14$</strong>
                 </span>
                 <span className='float-right'>
                   <MDBTooltip domElement placement='top'>
@@ -140,17 +166,17 @@ class Home extends React.Component {
             />
             <MDBCardBody cascade className='text-center'>
               <a href='#!' className='text-muted'>
-                <h5>Photography</h5>
+                <h5>Earrings</h5>
               </a>
               <MDBCardTitle>
                 <strong>
-                  <a href='#!'>Camera</a>
+                  <a href='#!'>Authentic</a>
                 </strong>
               </MDBCardTitle>
               <MDBCardText>Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</MDBCardText>
-              <MDBCardFooter className='px-1'>
+              <MDBCardFooter className='px-3'>
                 <span className='float-left font-weight-bold'>
-                  <strong>1160$</strong>
+                  <strong>11$</strong>
                 </span>
                 <span className='float-right'>
                   <MDBTooltip domElement placement='top'>
@@ -176,17 +202,17 @@ class Home extends React.Component {
             />
             <MDBCardBody cascade className='text-center'>
               <a href='#!' className='text-muted'>
-                <h5>Smartphone</h5>
+                <h5>Necklace</h5>
               </a>
               <MDBCardTitle>
                 <strong>
-                  <a href='#!'>iPhone 6S</a>
+                  <a href='#!'>New!</a>
                 </strong>
               </MDBCardTitle>
               <MDBCardText>Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</MDBCardText>
-              <MDBCardFooter className='px-1'>
+              <MDBCardFooter className='px-3'>
                 <span className='float-left font-weight-bold'>
-                  <strong>2160$</strong>
+                  <strong>21$</strong>
                 </span>
                 <span className='float-right'>
                   <MDBTooltip domElement placement='top'>

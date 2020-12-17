@@ -8,7 +8,7 @@
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: rgba(132, 169, 218, 0.25);
+    background-color: rgba(123, 176, 197, 0.514);
   }
   
   code {
@@ -29,15 +29,62 @@
 
   .tm1 {
     font-family:Sacramento;
-    font-size:50px;
+    font-size:43px;
   }
 
   .tm2 {
     font-family:Sacramento;
-    font-size:50px;
+    font-size:40px;
+  }
+
+  .td {
+    color: rgb(0, 0, 0);
+    font: 2em sans-serif;
   }
   
   .titleBanner {
-    background-color: rgba(230, 240, 145, 0.466);
-    border-bottom: solid rgba(202, 158, 158, 0.400) 1px;
+    background-color: rgba(253, 192, 23, 0.432);
+    outline: dashed rgba(228, 120, 120, 0.562) 2px;
+    outline-offset: -8px;
+    border-bottom: solid rgba(0, 0, 0, 0.247) 1px;
+  }
+
+  .titleBanner2 {
+    background-color: rgba(221, 210, 160, 1);
+    outline: dashed rgba(228, 120, 120, 0.678) 2px;
+    outline-offset: -6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.555) !important;
+    color: rgb(0, 0, 0);
+  }
+
+  .titleBanner2:hover{
+    background-color: rgb(182, 171, 121);
+    text-decoration: none;
+    box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.555) !important;
+    color: rgb(255, 255, 255) !important;
+  }
+
+  .titleBanner3 {
+    background-color: rgba(221, 210, 160, 0);
+    border-left: dashed rgba(228, 120, 120, 0) 2px;
+    border-right: dashed rgba(228, 120, 120, 0) 2px;
+    outline: solid rgba(221, 210, 160, 0) 10px;
+    outline-offset: 0px;
+  }
+
+  .nav2{
+    border-bottom: solid rgba(0, 0, 0, 0.267) 2px;
+  }
+
+  .ll {
+    border-right: dashed rgba(0, 0, 0, 0) 2px;
+    border-bottom: dashed rgba(126, 196, 105, 0) 1px;
+    border-radius: 0px 0px 50px 0px;
+   
+  }
+
+  .tnav {
+    border-bottom: solid rgba(0, 0, 0, 0.137) 1px;
+    outline: solid rgba(66, 170, 62,0) 1px;
+    outline-offset: -3px;
   }
