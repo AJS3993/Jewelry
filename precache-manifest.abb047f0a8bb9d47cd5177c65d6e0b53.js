@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "72ad065116727d1fc124b9e3f7f09f4e",
+    "revision": "1b63942996a6220fd62763703a3ec5e8",
     "url": "/Jewelry/index.html"
   },
   {
-    "revision": "f374409eedd8ee0d414c",
+    "revision": "0d4bfa03868cec0fde78",
     "url": "/Jewelry/static/css/2.7f5e552d.chunk.css"
   },
   {
-    "revision": "f4be6b8ac0d5a6551010",
-    "url": "/Jewelry/static/css/main.b7c00c93.chunk.css"
+    "revision": "03a35f8e352d124433ed",
+    "url": "/Jewelry/static/css/main.e7f1996a.chunk.css"
   },
   {
-    "revision": "f374409eedd8ee0d414c",
-    "url": "/Jewelry/static/js/2.2a9e1adc.chunk.js"
+    "revision": "0d4bfa03868cec0fde78",
+    "url": "/Jewelry/static/js/2.0918e24c.chunk.js"
   },
   {
     "revision": "b46eae19120e0343c25f399c83a404d7",
-    "url": "/Jewelry/static/js/2.2a9e1adc.chunk.js.LICENSE.txt"
+    "url": "/Jewelry/static/js/2.0918e24c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f4be6b8ac0d5a6551010",
-    "url": "/Jewelry/static/js/main.c5abc6bf.chunk.js"
+    "revision": "03a35f8e352d124433ed",
+    "url": "/Jewelry/static/js/main.18914ab6.chunk.js"
   },
   {
     "revision": "fe78af56c555080450d5",
